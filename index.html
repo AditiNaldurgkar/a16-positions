@@ -7,11 +7,12 @@
     h1{
         position: static;
         top: 300px;
-        background-color: aqua;
+        background-color:#FF6969;
         text-align: center;
+        display: block;
     }
 .btn{
-    background-color: #ccddff;
+    background-color:#FFF5E0;
     border-radius: 20px;
     padding: 10px;
     position: relative;
@@ -19,29 +20,75 @@
     left:30px;
 }
 .card{
-    height: 60px;
+    height: 50px;
     width: 300px;
-    background-color: #ffd6cc;
+    background-color:#CA8787;
     position:sticky;
     left: 20px;
     top:50px;
+    padding: 10px;
 }
 .textbox{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #ffd6cc;}
+    background-color:#C70039;
+    color: #FFFFFF;
+    padding: 10px;
+    }
+span{
+    text-align: center;
+}
+.combo{
+        height: 100px;
+        width: 300px;
+        background-color:white;
+        margin-top: 30px;
+        position: relative;
+        border-radius: 10px;
+        text-align: center;
+        border-style: solid;
+        border-width: 3px;
+      }
+.combo-img {
+        position: absolute;
+        top:-65px;
+        right:80px;
+        margin: 0 auto;
+        padding: 30px;
+        border-radius: 50%;
+ }
+ .text{
+    position: relative;
+    top:15px;
+    padding: 5px;
+    font-size: large;
+ }
 </style>
 </head>
 <body>
     <h1>Welcome to our The Bliss cafe</h1>
+    <img src="img1.jpeg" height="200px" width="300px"> &nbsp;&nbsp;
+    <img src="interior.jpeg" height="200px" width="300px">
+    <br/>
     <button class="btn"><b>Call Now</b></button><br/><br/>
     <div class="card"><b>OFFER!! OFFER!! OFFER!! </b><br/>
     get a mini pizza and coldrink just for 99!!
     </div><br/>
-    <p class="para1">
-        We have a variety of cuisines ranging from italian to mexican...
-        our customer service is on top notch
-    </p>
+    <h2><b><i> We have a variety of delicious cuisines including beverages ,soft drinks etc..</i></b></h2>
     <p class="textbox">Waiting to welcome you at our cafe ...</p>
-</body>
+    <img src="food.jpeg" height="200px" width="300px">
+    <img src="images.jpeg" height="200px" width="350px"><br/>
+    <h2>Special combos...</h2><br/>
+    <div class="combo">
+        <img class="combo-img" src="combo1.png"  height="60px" width="90px">
+     <p class="text">   <b>MINI MAJJA</b><br/>
+        enjoy a mini meal with burger french fries and one colddrink </p>
+    </div><br/>
+    <div class="combo">
+        <img class="combo-img" src="combo2.png"  height="60px" width="90px">
+     <p class="text">   <b>Italian Rizz</b><br/>
+        enjoy a hot sizzling italian pasta with spaghetti and sauceas and drinks. </p>
+    </div>
+
+</body> 
